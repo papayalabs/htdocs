@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body class="center2">
 
 
 	<div id="header">

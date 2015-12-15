@@ -13,7 +13,13 @@ Author URI: http://www.hogarsigloxxi.com
 @import url('./style-common.css');
 @import url('./style-ecommerce.css');
 
-body { margin: 0; padding: 0; background :#c18568 url("images/bg.jpg") repeat-x;background-attachment:fixed;  font: 10px "Verdana", Tahoma, Trebuchet MS,Arial, Sans-Serif; color: #5a311d; text-align: left; }
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body { margin: 0; padding: 0; background :#c18568 url("images/bg.jpg") repeat-x;background-attachment:fixed;  font: 10px "Verdana", Tahoma, Trebuchet MS,Arial, Sans-Serif; color: #5a311d; text-align: left; vertical-align: middle; }
 
 p, ol, ul { line-height: 150%; }
 
@@ -39,6 +45,12 @@ a img         {border:none;}
 .left         { float: left; }
 .right        { float: right; }
 .center { text-align: center; }
+
+.center2 {
+    margin: auto;
+    width: 85%
+}
+
 .alignleft { float: left; margin-right: 10px; }
 .alignright { float: right; margin-left: 10px; }
 
